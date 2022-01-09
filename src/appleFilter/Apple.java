@@ -3,7 +3,7 @@ package appleFilter;
 
 public class Apple {
     private Color color;
-    private int weight;
+    private Integer weight;
 
     public Apple(Color color, int weight) {
         this.color=color;
@@ -18,7 +18,7 @@ public class Apple {
         this.color = color;
     }
 
-    public int getWeight() {
+    public Integer getWeight() {
         return weight;
     }
 
