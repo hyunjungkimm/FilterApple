@@ -15,7 +15,7 @@ public class Test3{
         list.add(new Apple(Color.RED, 70));
         list.add(new Apple(Color.GREEN, 200));
 
-
+        //compareTo 수정완료
         Comparator<Apple> byWeight = new Comparator<Apple>() {
             public int compare(Apple o1, Apple o2) {
                 return o1.getWeight().compareTo(o1.getWeight());
